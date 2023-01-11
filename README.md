@@ -6,9 +6,9 @@ The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconv
 * Naming convention is camelCase.
 * Correct spelling for variables.
 * Spaces after commas and before curly brackets.
-* Spacing around equals.
+* Spacing around operators.
 * Each indentation is 4 spaces.
-* Curly brackets same line as conditionals or loops.
+* Curly brackets same line as conditionals, loops or declarations.
 * Globals and statics in all caps with underscores.
 * No spaces before semicolons at line ends.
 * If you need to increment always ++ instead of += 1.
