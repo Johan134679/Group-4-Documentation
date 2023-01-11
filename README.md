@@ -1,5 +1,7 @@
 # Coding regulations for Java
 
+The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) will be used, with the following extensions:
+
 * Chosen Language: Java
 * Naming convention is camelCase.
 * Correct spelling for variables.
