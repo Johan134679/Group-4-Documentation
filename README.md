@@ -18,10 +18,24 @@ The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconv
 * No empty try catches.
 * Switches above nested/chained ifs.
 * Don't create fall through cases in switch statements.
+* Don't use nested turnary operators.
+* Always make branches never work on main directly.
+* Commented code is deleted code.
+* One statement per line.
+* Declare variables when they are about to be used if possible.
+* Declaring of multiple variables are in multiple lines even if it is the same type.
+* All classes start with capitals.
 
-```
-// This function 
-public static String doThing(String name, String surname) {
+```java 
+/**
+ * This method does this and that.
+ * @param name this takes the name
+ * @param surname this takes the surname
+ * @return String something 
+ *
+ */
+public static String doFormalGreeting(String name, String surname) {
+    //This is an in function comment
     for (int i = 0; i < 10; i++) {
         i += 1;
     }
