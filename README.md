@@ -2,13 +2,12 @@
 
 The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) will be used, with the following extensions:
 
-* Chosen Language: Java
-* Naming convention is camelCase.
+* Naming convention: camelCase.
 * Correct spelling for variables.
-* Spaces after commas and before curly brackets.
-* Spacing around equals.
-* Each indentation is 4 spaces.
-* Curly brackets same line as conditionals or loops.
+* Spaces after commas and before opening curly brackets.
+* Spacing around infix and unary operators (+ - * / =).
+* Indentation: 4 spaces.
+* Curly brackets on same line as conditionals or loops.
 * Globals and statics in all caps with underscores.
 * No spaces before semicolons at line ends.
 * If you need to increment always ++ instead of += 1.
