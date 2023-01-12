@@ -24,17 +24,18 @@ The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconv
 * Declare variables when they are about to be used if possible.
 * Declaring of multiple variables are in multiple lines even if it is the same type.
 
-## Other
-* If you need to increment always ++ instead of += 1.
+## Documentation and comments
 * Use comments sparingly.
 * Function descriptions in comments above function, in function comments are only for explaing core parts.
+* Remove commented out code.
+
+## Other
+* If you need to increment always ++ instead of += 1.
 * Try not to use continues.
 * No empty try catches.
 * Switches above nested/chained ifs.
 * Don't create fall through cases in switch statements.
 * Don't use nested turnary operators.
-* Always make branches never work on main directly.
-* Commented code is deleted code.
 * One statement per line.
 
 ```java 
