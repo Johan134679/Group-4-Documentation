@@ -36,6 +36,7 @@
 * Don't create fall through cases in switch statements.
 * Don't use nested turnary operators.
 * One statement per line.
+*  Avoid ternary operator
 
 ```java 
 /**
