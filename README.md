@@ -31,7 +31,7 @@ The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconv
  * This method does this and that.
  * @param name this takes the name
  * @param surname this takes the surname
- * @return String something 
+ * @return String well formatted greeting. 
  *
  */
 public static String doFormalGreeting(String name, String surname) {

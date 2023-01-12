@@ -4,6 +4,9 @@ public class sampleProj {
 
     public static String IMPORTANT_MESSAGE;
 
+    /**
+     * User is a class to encapsulate the base kind of users available to the system.
+     */
     private static class User {
         private static String FILLER_NAME = "John";
         private static String FILLER_SURNAME = "Doe";
@@ -49,7 +52,7 @@ public class sampleProj {
 
         @Override
         public String toString() {
-            return String.format( "Name: %s\nSurname: %s", this.name, this.surname );
+            return String.format( "Name: %s\nSurname: %s", this.getName(), this.getSurname() );
         }
     }
 
