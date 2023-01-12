@@ -3,14 +3,28 @@
 
 The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) will be used, with the following extensions:
 
+## Naming conventions
 * Naming convention: camelCase.
 * Correct spelling for variables.
+* Globals and statics in all caps with underscores.
+* All classes start with capitals.
+
+## Spacing
 * Spaces after commas and before opening curly brackets.
 * Spacing around infix and unary operators (+ - * / =).
-* Indentation: 4 spaces.
-* Curly brackets on same line as conditionals or loops.
-* Globals and statics in all caps with underscores.
 * No spaces before semicolons at line ends.
+
+## Indentation
+* Indentation: 4 spaces.
+
+## Brackets
+* Curly brackets on same line as conditionals or loops.
+
+## Variables
+* Declare variables when they are about to be used if possible.
+* Declaring of multiple variables are in multiple lines even if it is the same type.
+
+## Other
 * If you need to increment always ++ instead of += 1.
 * Use comments sparingly.
 * Function descriptions in comments above function, in function comments are only for explaing core parts.
@@ -22,9 +36,6 @@ The standards stipulated [here](https://www.oracle.com/technetwork/java/codeconv
 * Always make branches never work on main directly.
 * Commented code is deleted code.
 * One statement per line.
-* Declare variables when they are about to be used if possible.
-* Declaring of multiple variables are in multiple lines even if it is the same type.
-* All classes start with capitals.
 
 ```java 
 /**
